@@ -1,0 +1,116 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*FINE RESET*/
+
+/*INIZIO REGOLE GENERALI*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  color: #33475b;
+}
+
+.button {
+  color: white;
+  background-color: #fe775a;
+  border-radius: 5px;
+  padding: 7px;
+}
+/*FINE REGOLE GENERALI*/
+
+/* HEADER */
+/* header navigation top */
+
+header .navigation.top {
+  background: #f4f9fd;
+  padding: 20px 0;
+  border-bottom: 1px solid #44596a;
+}
+header a {
+  color: #33475b;
+}
+header li {
+  display: inline-block;
+  font-size: 13px;
+}
+header .col {
+  width: 50%;
+}
+header .col .fa-angle-down {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+header .col.right {
+  text-align: right;
+}
+header .col .login {
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  margin: 0 20px;
+  padding: 7px;
+}
+header .col.right .fa-search {
+  color: #01a4bd;
+}
+/* fine header navigation top */
+header .bottom .col {
+  padding: 20px 0;
+  width: 30%;
+}
+header .bottom .col.right {
+  width: 70%;
+  line-height: 40px;
+}
+header .bottom .col.right .pricing {
+ padding-right: 20px;
+}
+header .bottom .col.right ul li {
+  padding: 0 1px;
+}
+header .fa-angle-down.last {
+  margin-right: 0px;
+}
+
+/* header navigation bottom */
+
+
+/* FINE HEADER */
+
+
+
+/* MAIN  */
+
+
+/* FINE MAIN */
+
+
+
+
+/* FOOTER */
+
+/* FINE FOOTER */
