@@ -14,6 +14,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: blue;
+}
 
 li {
   list-style-type: none;
@@ -44,7 +47,9 @@ li {
 
 /* HEADER */
 /* header navigation top */
-
+header {
+  color: #33475b;
+}
 header .navigation.top {
   background: #f4f9fd;
   padding: 20px 0;
@@ -78,6 +83,8 @@ header .col.right .fa-search {
   color: #01a4bd;
 }
 /* fine header navigation top */
+
+/* inizio header navigation bottom */
 header .bottom .col {
   padding: 20px 0;
   width: 30%;
@@ -95,10 +102,34 @@ header .bottom .col.right ul li {
 header .fa-angle-down.last {
   margin-right: 0px;
 }
+/* fine header navigation bottom */
 
-/* header navigation bottom */
+/* inizio header teaser */
+header .teaser {
+  background-image: url(../img/jumbotron.png);
+  height: 800px;
+  background-repeat: no-repeat;
+}
 
+header .teaser .claim {
+  width: 65%;
+  padding-top: 50px;
+}
 
+header .teaser .claim h1 {
+  font-size: 40px;
+}
+header .teaser .claim p {
+  margin: 35px 0;
+}
+header .teaser .claim a {
+  padding: 20px 35px;
+  line-height: 100px;
+}
+header .teaser .claim .mini {
+  font-size: 12px;
+}
+/* fine header teaser */
 /* FINE HEADER */
 
 
