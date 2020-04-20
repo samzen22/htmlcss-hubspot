@@ -107,7 +107,7 @@ header .fa-angle-down.last {
 /* inizio header teaser */
 header .teaser {
   background-image: url(../img/jumbotron.png);
-  height: 800px;
+  height: 695px;
   background-repeat: no-repeat;
 }
 
@@ -132,10 +132,87 @@ header .teaser .claim .mini {
 /* fine header teaser */
 /* FINE HEADER */
 
-
-
 /* MAIN  */
+main {
+  color: #33475b;
+}
+main p {
+  font-size: 13px;
+}
+main img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+main h4 {
+  text-transform: uppercase;
+}
 
+/* inizio main section feature */
+main .feature {
+  background-color: #f4f9fd;
+}
+
+main .learn {
+  color: white;
+  background-color: #fe775a;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: block;
+}
+
+main .fa-check-circle {
+  color: #fe775a;
+  margin: 0 8px;
+}
+
+main .feature p {
+  margin: 20px 0;
+}
+
+/* inizio main section feature powerful */
+
+main .feature .powerful img {
+  height: 150px;
+}
+main .feature .powerful {
+  text-align: center;
+  padding: 50px;
+}
+main .feature .powerful p {
+  margin-top: 20px;
+}
+/* fine main section feature powerful */
+
+/* inizio main section feature hubspot */
+main .feature .hubspot {
+  background-color: white;
+  padding: 35px 55px;
+}
+main .feature .hubspot .col.left{
+  width: 20%;
+  text-align: center;
+}
+main .feature .hubspot .col.right{
+  width: 68%;
+  margin-left: 70px;
+}
+main .feature .hubspot .col.right h4 {
+  width: 50%;
+  display: inline-block;
+}
+main .feature .hubspot .col.right hr{
+  width: 225px;
+  display: inline-block;
+}
+
+main .feature .hubspot .col.right ul li{
+  display: inline-block;
+}
+
+
+/* fine main section feature hubspot */
+
+/* fine main section feature */
 
 /* FINE MAIN */
 
