@@ -42,6 +42,25 @@ li {
   border-radius: 5px;
   padding: 7px;
 }
+
+.claim {
+  width: 55%;
+  padding-top: 50px;
+}
+
+.claim h1 {
+  font-size: 40px;
+}
+.claim p {
+  margin: 35px 0;
+}
+.claim a {
+  padding: 20px 35px;
+  line-height: 100px;
+}
+.claim .mini {
+  font-size: 12px;
+}
 /*FINE REGOLE GENERALI*/
 
 /* HEADER */
@@ -108,25 +127,6 @@ header .teaser {
   background-image: url(../img/jumbotron.png);
   height: 695px;
   background-repeat: no-repeat;
-}
-
-header .teaser .claim {
-  width: 65%;
-  padding-top: 50px;
-}
-
-header .teaser .claim h1 {
-  font-size: 40px;
-}
-header .teaser .claim p {
-  margin: 35px 0;
-}
-header .teaser .claim a {
-  padding: 20px 35px;
-  line-height: 100px;
-}
-header .teaser .claim .mini {
-  font-size: 12px;
 }
 /* fine header teaser */
 /* FINE HEADER */
@@ -291,7 +291,43 @@ main section .grid .bordo {
 /* fine main grid section learn */
 /* fine main section learn */
 
+/* inizio main top section partner */
+main section.partner .col {
+  margin-left: 50px;
+  margin-top: 45px;
+}
+main section.partner .col.partner1 {
+  width: 30%;
+}
+main section.partner .col.partner2 {
+  width: 60%;
+  text-align: right;
+}
+main section.partner .col.partner1 h3 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+main section.partner .col.partner2 ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+main section.partner .col.partner2 ul li img {
+  height: 20px;
+}
+/* fine main top section partner */
 
+/* inizio bottom section partner */
+main section.partner .col.part1 {
+  width: 70%;
+}
+main section.partner .col.part2 {
+  width: 20%;
+}
+main section.partner .woman {
+  height: 360px;
+}
+/* fine bottom section partner */
 
 /* FINE MAIN */
 
