@@ -159,10 +159,14 @@ main .learn {
   padding: 10px 20px;
   display: block;
 }
+main .learn:hover {
+  color: blue;
+}
 
 main .fa-check-circle {
   color: #fe775a;
-  margin: 0 8px;
+  margin: 0 15px;
+  float: left;
 }
 
 main .feature p {
@@ -184,34 +188,67 @@ main .feature .powerful p {
 /* fine main section feature powerful */
 
 /* inizio main section feature hubspot */
-main .feature .hubspot {
+main .feature .setting {
   background-color: white;
   padding: 35px 55px;
+  border-radius: 5px;
+  border: 2px solid #e9eef4;
 }
-main .feature .hubspot .col.left{
-  width: 20%;
+main .feature .hub .col.left{
+  width: 15%;
   text-align: center;
 }
-main .feature .hubspot .col.right{
-  width: 68%;
+main .feature .hub .col.right{
+  width: 77%;
   margin-left: 70px;
 }
-main .feature .hubspot .col.right h4 {
-  width: 50%;
+main .feature .hub .col.right h4 {
+  width: 30%;
   display: inline-block;
 }
-main .feature .hubspot .col.right hr{
-  width: 225px;
+main .feature .hub .col.right hr{
+  width: 510px;
   display: inline-block;
 }
-
-main .feature .hubspot .col.right ul li{
+main .feature .hub .col.right ul li{
   display: inline-block;
 }
-
-
 /* fine main section feature hubspot */
 
+/* inizio main section feature hub bottom */
+main .hub.three .col {
+  width: 31%;
+  padding: 45px 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+main .hub.three .learn {
+  display: inline;
+}
+main .hub.three .col.center {
+  margin: 50px 37px;
+}
+
+main .feature .hub.three .col ul {
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 12px;
+
+}
+main .feature .hub.three .col ul li {
+  text-align: left;
+}
+main .feature .hub.three .col hr {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+main .feature .hub.three .col ul li p {
+  margin: 0;
+}
+main .feature .hub.three .col h4 {
+  margin-bottom: 20px;
+}
+/* fine main section feature hub bottom */
 /* fine main section feature */
 
 /* FINE MAIN */
