@@ -182,7 +182,8 @@ main .feature .powerful {
   padding: 50px;
 }
 main .feature .powerful p {
-  margin-top: 20px;
+  width: 70%;
+  margin: 25px auto;
 }
 /* fine main section feature powerful */
 
@@ -293,15 +294,16 @@ main section .grid .bordo {
 
 /* inizio main top section partner */
 main section.partner .col {
-  margin-left: 50px;
   margin-top: 45px;
 }
 main section.partner .col.partner1 {
   width: 30%;
+  margin-left: 50px;
 }
 main section.partner .col.partner2 {
   width: 60%;
   text-align: right;
+  padding-right: 30px;
 }
 main section.partner .col.partner1 h3 {
   font-size: 40px;
@@ -321,8 +323,8 @@ main section.partner .col.partner2 ul li img {
 main section.partner .col.part1 {
   width: 70%;
 }
-main section.partner .col.part2 {
-  width: 20%;
+main section.partner .col.part1 h2 {
+  font-size: 40px;
 }
 main section.partner .woman {
   height: 360px;
