@@ -328,12 +328,83 @@ main section.partner .woman {
   height: 360px;
 }
 /* fine bottom section partner */
-
 /* FINE MAIN */
 
-
-
-
 /* FOOTER */
+footer {
+  background: #32495b;
+  color: #cbd6e2;
+}
+footer a {
+  text-decoration: none;
+  color: #cbd6e2;
+  font-size: 12px;
+}
+footer h5 {
+  color:white;
+}
+footer p {
+  font-size: 12px;
+}
 
+/* inizio lista top footer */
+
+footer .list .col {
+  width: 25%;
+  padding-top: 30px;
+}
+footer .list .col ul li {
+  margin-top: 12px;
+}
+footer .list .col ul li {
+  margin-top: 12px;
+}
+footer .list .col ul li .footbutton {
+  background:#cbd6e2;
+  color: #32495b;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+footer .list .col ul li .footbutton:hover {
+  color: blue;
+}
+footer .list .col ul.social-icon li {
+  display: inline-block;
+  margin-right: 20px;
+}
+footer .list .col ul.social-icon {
+ margin-top: 15px;
+}
+footer .social-icon i:hover {
+  color: blue;
+}
+/* fine lista top footer */
+
+/* inizio languages  footer */
+footer .languages ul {
+  text-align: center;
+}
+footer .languages ul li {
+  display: inline-block;
+  padding: 15px;
+  margin-top: 60px;
+}
+/* fine languages  footer */
+
+/* inizio copyright  footer */
+footer .copyright .col {
+  width: 50%;
+  margin: 25px 0;
+}
+footer .copyright img {
+  background: #cbd6e2;
+}
+footer .copyright .col.legal {
+  text-align: right;
+}
+footer .copyright .col.legal a {
+  margin-left: 20px;
+}
+/* fine copyright  footer */
 /* FINE FOOTER */
