@@ -326,6 +326,7 @@ main section.partner .col.part1 {
 main section.partner .col.part1 h2 {
   font-size: 40px;
 }
+
 main section.partner .woman {
   height: 360px;
 }
@@ -398,9 +399,6 @@ footer .languages ul li {
 footer .copyright .col {
   width: 50%;
   margin: 25px 0;
-}
-footer .copyright img {
-  background: #cbd6e2;
 }
 footer .copyright .col.legal {
   text-align: right;
