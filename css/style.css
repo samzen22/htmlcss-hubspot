@@ -147,7 +147,7 @@ main h4 {
 }
 
 /* inizio main section feature */
-main .feature {
+main #feature {
   background-color: #f4f9fd;
 }
 
@@ -168,124 +168,124 @@ main .fa-check-circle {
   float: left;
 }
 
-main .feature p {
+main #feature p {
   margin: 20px 0;
 }
 
 /* inizio main section feature powerful */
 
-main .feature .powerful img {
+main #feature .powerful img {
   height: 150px;
 }
-main .feature .powerful {
+main #feature .powerful {
   text-align: center;
   padding: 50px;
 }
-main .feature .powerful p {
+main #feature .powerful p {
   width: 70%;
   margin: 25px auto;
 }
 /* fine main section feature powerful */
 
 /* inizio main section feature hubspot */
-main .feature .setting {
+main #feature .setting {
   background-color: white;
   padding: 35px 55px;
   border-radius: 5px;
   border: 2px solid #e9eef4;
 }
-main .feature .hub .col.left{
+main #feature .hub .col.left{
   width: 15%;
   text-align: center;
 }
-main .feature .hub .col.right{
+main #feature .hub .col.right{
   width: 77%;
   margin-left: 70px;
 }
-main .feature .hub .col.right h4 {
+main #feature .hub .col.right h4 {
   width: 30%;
   display: inline-block;
 }
-main .feature .hub .col.right hr{
+main #feature .hub .col.right hr{
   width: 510px;
   display: inline-block;
 }
-main .feature .hub .col.right ul li{
+main #feature .hub .col.right ul li{
   display: inline-block;
 }
 /* fine main section feature hubspot */
 
 /* inizio main section feature hub bottom */
-main .hub.three .col {
+main #feature .hub.three .col {
   width: 31%;
   padding: 45px 25px;
   text-align: center;
   margin-top: 50px;
 }
-main .hub.three .learn-more {
+main #feature .hub.three .learn-more {
   display: inline;
 }
-main .hub.three .col.center {
+main #feature .hub.three .col.center {
   margin: 50px 37px;
 }
 
-main .feature .hub.three .col ul {
+main #feature .hub.three .col ul {
   text-align: left;
   margin-bottom: 40px;
   font-size: 12px;
 
 }
-main .feature .hub.three .col ul li {
+main #feature .hub.three .col ul li {
   text-align: left;
 }
-main .feature .hub.three .col hr {
+main #feature .hub.three .col hr {
   margin-bottom: 20px;
   margin-top: 40px;
 }
-main .feature .hub.three .col ul li p {
+main #feature .hub.three .col ul li p {
   margin: 0;
 }
-main .feature .hub.three .col h4 {
+main #feature .hub.three .col h4 {
   margin-bottom: 20px;
 }
 /* fine main section feature hub bottom */
 /* fine main section feature */
 
 /* inizio main section learn */
-main section.learn {
+main section#learn {
   background: #00b2b0;
   color: white;
   padding: 50px 0;
   text-align: center;
 }
-main .learn .text-learn h3 {
+main #learn .text-learn h3 {
   font-size: 25px;
   margin-bottom: 20px;
 }
 
 /* inizio main grid section learn */
-main section .grid {
+main section#learn .grid {
   text-align: center;
 }
-main section.learn .col {
+main section#learn .col {
   width: 25%;
   margin: 35px 0;
 }
-main section.learn .col img {
+main section#learn .col img {
   height: 30px;
   margin-top: 35px;
 }
 
-main section.learn .col .number {
+main section#learn .col .number {
   font-size: 35px;
   font-weight: bold;
 }
 
-main section.learn .col.col-grid {
+main section#learn .col.col-grid {
   border-right: 2px solid white;
 }
 
-main section .grid .bordo {
+main section#learn .grid .bottom-bordo {
   border-top: 2px solid white;
   margin-top: 35px;
 }
@@ -293,41 +293,43 @@ main section .grid .bordo {
 /* fine main section learn */
 
 /* inizio main top section partner */
-main section.partner .col {
+main section#partner .col {
   margin-top: 45px;
 }
-main section.partner .col.partner1 {
+main section#partner .col.partner1 {
   width: 30%;
   margin-left: 50px;
 }
-main section.partner .col.partner2 {
+main section#partner .col.partner2 {
   width: 60%;
   text-align: right;
   padding-right: 30px;
 }
-main section.partner .col.partner1 h3 {
+main section#partner .col.partner1 h3 {
   font-size: 40px;
   margin-bottom: 25px;
 }
-main section.partner .col.partner2 ul li {
+main section#partner .col.partner2 ul li {
   display: inline-block;
-  margin-left: 25px;
-  margin-bottom: 15px;
+  margin-left: 15px;
+  width: 20%;
+  vertical-align: middle;
 }
-main section.partner .col.partner2 ul li img {
-  height: 20px;
+main section#partner .col.partner2 ul li img {
+  width: 100%;
+  height: 100%;
 }
 /* fine main top section partner */
 
 /* inizio bottom section partner */
-main section.partner .col.part1 {
+main section#partner .col.part1 {
   width: 70%;
 }
-main section.partner .col.part1 h2 {
+main section#partner .col.part1 h2 {
   font-size: 40px;
 }
 
-main section.partner .woman {
+main section#partner .woman {
   height: 360px;
 }
 /* fine bottom section partner */
